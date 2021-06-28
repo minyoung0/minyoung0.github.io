@@ -11,7 +11,7 @@ sass:
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "MinYoung Hwang"
-resume_title:                   "Welcome to my portfolio! If you want visit my github. Click the icon on the right"
+resume_title:                   "Welcome! If you want visit my github. Click the icon on the right"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "hmylove01@naver.com"
