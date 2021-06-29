@@ -205,10 +205,16 @@
 
         <div class="resume-item">
           <ul class="resume-item-list">
-            {% for link in site.data.links %}
-            <img src= {{ link.image }}>
+           
+            <img src= "c.jpg">
+            <li><a href={{ link.url }} itemprop="url">학급성적 프로그램</a></li>
+            <img src= "python.jpg">
+            <li><a href={{ link.url }} itemprop="url">아동 학대 실태 분석</a></li>
+            <img src= "db.jpg">
+            <li><a href={{ link.url }} itemprop="url">도서관리 프로그램</a></li>
+            <img src= "c.jpg">
             <li><a href={{ link.url }} itemprop="url">{{ link.description }}</a></li>
-            {% endfor %}
+            
           </ul>
         </div>
 
