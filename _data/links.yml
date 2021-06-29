@@ -1,9 +1,16 @@
 # links
-- url: "#"
+- image: "image/c.png"
+  url: "#"
   description: 학급 성적 프로그램
-- url: "#"
+  
+- image: "image/python.png"
+  url: "#"
   description: 아동 학대 실태 분석
-- url: "#"
+  
+- image: "image/db.png"
+  url: "#"
   description: 도서관리 프로그램
+  
 - url: "#"
   description: 자동차 서비스센터 프로그램
+  image: "image/c.png"
