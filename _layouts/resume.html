@@ -206,7 +206,7 @@
         <div class="resume-item">
           <ul class="resume-item-list">
             {% for link in site.data.links %}
-            <img src={{ links.image }} itemprop="image" >
+            <img src={{ link.image }}>
             <li><a href={{ link.url }} itemprop="url">{{ link.description }}</a></li>
             {% endfor %}
           </ul>
