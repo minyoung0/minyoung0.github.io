@@ -175,14 +175,19 @@
         border-bottom: none;
         color: #9c9c9c;
       }
-    img{
-      width: 500px;
-      height: 400px;
-      }
+
     }
   }
 
   .resume-item-copy { margin: .75rem 0 0; }
+}
+.resume-item-list 
+{
+  
+  img{
+    width: 500px;
+    height: 400px;
+    }
 }
 
 // footer styles
