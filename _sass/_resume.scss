@@ -14,12 +14,6 @@
     letter-spacing: -.05rem;
     margin: 0;
   }
-  .resume-item-list {
-   img{
-     width: 400px;
-     height: 300px;
-
-   }
   }
 }
 
@@ -160,6 +154,7 @@
     &.award-title {
       font-size: 1rem;
     }
+    
   }
 
   .resume-item-title,
@@ -175,19 +170,14 @@
         border-bottom: none;
         color: #9c9c9c;
       }
+      
 
     }
   }
 
   .resume-item-copy { margin: .75rem 0 0; }
 }
-.resume-item-list 
-{
-  
-  img{
-    width: 500px;
-    height: 400px;
-    }
+
 }
 
 // footer styles
