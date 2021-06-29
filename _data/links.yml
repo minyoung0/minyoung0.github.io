@@ -1,16 +1,16 @@
 # links
-- image: "image/c.jpg"
+# - image: "image/c.jpg"
   url: "#"
   description: 학급 성적 프로그램
   
-- image: "image/python.jpg"
+# - image: "image/python.jpg"
   url: "#"
   description: 아동 학대 실태 분석
   
-- image: "image/db.jpg"
+# - image: "image/db.jpg"
   url: "#"
   description: 도서관리 프로그램
   
 - url: "#"
   description: 자동차 서비스센터 프로그램
-  image: "image/c.png"
+  # image: "image/c.png"
