@@ -11,7 +11,7 @@ sass:
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "MinYoung Hwang"
-resume_title:                   "Welcome! If you want visit my github. Click the icon on the right"
+resume_title:                   "제 포트폴리오에 오신걸 환영합니다 :)"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "hmylove01@naver.com"
@@ -23,7 +23,7 @@ resume_contact_address:         "대구 달서구 조암남로10"
 resume_header_contact_info:     "대구 달서구 조암남로10 • 010-4845-3553 • hmylove01@naver.com"
 display_header_contact_info:    "false"
 
-resume_header_intro: "<p>Hello this is my portfolio. But not finished yet. Sorry:) </p>"
+resume_header_intro: "<p>만들어지는 중 입니다... </p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
