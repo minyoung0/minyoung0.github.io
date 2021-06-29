@@ -1,13 +1,13 @@
 # links
-- image: "image/c.jpg"
+- image: "c.jpg"
   url: "#"
   description: 학급 성적 프로그램
   
-- image: "image/python.jpg"
+- image: "python.jpg"
   url: "#"
   description: 아동 학대 실태 분석
   
-- image: "image/db.jpg"
+- image: "db.jpg"
   url: "#"
   description: 도서관리 프로그램
   
