@@ -231,7 +231,7 @@ body::after{
 .about .about_left .left_col1 .box .about_img2{display: none;}
 .about .about_left .left_col1 .p1{font-family: 'Permanent Marker', cursive; font-size: 50px; font-weight: bold; position: absolute; top: -75px; left: 0; color: #fff; line-height: 1; transform: rotate(-2deg); white-space: nowrap;}
 .about_left .left_col1 .p2{font-family: 'Permanent Marker', cursive; font-size: 30px; font-weight: bold; position: absolute; bottom: -40px; right: 0; color: #ffd600; line-height: 1; transform: rotate(-2deg);}
-.about .about_right{float: left; width: 50%; height: 100%; background: url(../img/bl_bg.png); padding: 5% 60px 7% 60px; box-sizing: border-box;}
+.about .about_right{float: left; width: 50%; height: 100%; background: url(../img/bl_bg.png); padding: 35px 40px; box-sizing: border-box;}
 .about .about_right h2{}
 .about .about_right em{}
 .about .about_right .right_col1{width: 95%;}
