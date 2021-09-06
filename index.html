@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/slide.css">
 
     <!-- 웹폰트 -->
     <link rel="shortcut icon" href="assets/img/favicon.png">
@@ -136,10 +137,16 @@
                         <h2 class="h2">ABOUT<em class="h2_em"><br>ME</em></h2>
                         <div class="right_col1" style="margin:50px 0">
                             <div style="color: white; font-size: 18px;">
-                                <strong style="font-size: 14px;">
-                                    학력<br>
+                                <strong style="font-size: 15px;">
+                                    학력 - 2021.02 영남대학교 화학공학부 - 화공시스템전공 졸업<br>
                                 </strong>
-                                2021.02 영남대학교 화학공학부 - 화공시스템전공 졸업<br><br>
+                                <strong style="font-size: 15px;">
+                                    생년월일 - 1998.07.13<br>
+                                </strong>
+                                <strong style="font-size: 15px;">
+                                    자격증 - 정보처리기사 필기 통과 후 실기 준비중<br>
+                                </strong>
+                                <br>
                                 화장품에 관심이 많다는 이유로 화학공학부에 진학했지만 전공수업에서 접하게 된 mathlab과 mathematica로 부터 작게나마 컴퓨터 언어에 관심을 갖게
                                 되었습니다.
                                 좀 더 공부해보고 싶은 마음에 컴퓨터 공학과 수업을 신청해서 들었고, 새하얀 도화지같은 화면에 제가 적은 코드가 하나 하나 모여 작지만 하나의 프로그램이 되는
@@ -276,7 +283,38 @@
                             </div>
                         </div>
                         <div class="work1_right">
-                            <img src="./assets/img/todolist.png" alt="웹표준 사이트">
+                            <div class="slideshow-container">
+
+                                <div class="mySlides fade">
+                                  <div class="numbertext">1 / 3</div>
+                                  <img src="http://placehold.it/300x100" style="width:100%">
+                                  <div class="text">Caption Text</div>
+                                </div>
+                                
+                                <div class="mySlides fade">
+                                  <div class="numbertext">2 / 3</div>
+                                  <img src="http://placehold.it/300x100" style="width:100%">
+                                  <div class="text">Caption Two</div>
+                                </div>
+                                
+                                <div class="mySlides fade">
+                                  <div class="numbertext">3 / 3</div>
+                                  <img src="http://placehold.it/300x100" style="width:100%">
+                                  <div class="text">Caption Three</div>
+                                </div>
+                                
+                                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                
+                                </div>
+                                <br>
+                                
+                                <div style="text-align:center">
+                                  <span class="dot" onclick="currentSlide(1)"></span> 
+                                  <span class="dot" onclick="currentSlide(2)"></span> 
+                                  <span class="dot" onclick="currentSlide(3)"></span> 
+                                </div>
+                        </div>
                         </div>
                     </div>
                 </div>
@@ -316,7 +354,37 @@
                             <a href="./pdf/WarmPlace.pdf" class="btn3 thar-one hover" target="_blank"> DOWNLOAD PPT</a>
                         </div>
                         <div class="work2_right">
-                            <img src="./assets/img/warmplace.png" alt="웹표준 사이트">
+                            <div class="slideshow-container">
+
+                                <div class="mySlides fade">
+                                  <div class="numbertext">1 / 3</div>
+                                  <img src="http://placehold.it/300x100" style="width:100%">
+                                  <div class="text">Caption Text</div>
+                                </div>
+                                
+                                <div class="mySlides fade">
+                                  <div class="numbertext">2 / 3</div>
+                                  <img src="http://placehold.it/300x100" style="width:100%">
+                                  <div class="text">Caption Two</div>
+                                </div>
+                                
+                                <div class="mySlides fade">
+                                  <div class="numbertext">3 / 3</div>
+                                  <img src="http://placehold.it/300x100" style="width:100%">
+                                  <div class="text">Caption Three</div>
+                                </div>
+                                
+                                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                
+                                </div>
+                                <br>
+                                
+                                <div style="text-align:center">
+                                  <span class="dot" onclick="currentSlide(1)"></span> 
+                                  <span class="dot" onclick="currentSlide(2)"></span> 
+                                  <span class="dot" onclick="currentSlide(3)"></span> 
+                                </div>
                         </div>
                     </div>
                 </div>
@@ -521,6 +589,7 @@
     <script src="assets/js/imagesloaded.pkgd.min.js"></script>
     <script src="assets/js/skrollr.min.js"></script>
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/slide.js"></script>
 </body>
 
 </html>
