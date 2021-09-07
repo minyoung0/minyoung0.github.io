@@ -1,10 +1,12 @@
 /* * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0} */
 .mySlides {display: none;}
+.mySlides2 {display: none;}
+.mySlides3 {display: none;}
 img {vertical-align: middle;}
 
 /* Slideshow container */
-.slideshow-container {
+.slideshow-container, .slideshow-container2, .slideshow-container3  {
   max-width: 1000px;
   position: relative;
   margin: auto;
@@ -57,7 +59,7 @@ img {vertical-align: middle;}
 }
 
 /* The dots/bullets/indicators */
-.dot {
+.dot, .dot2, .dot3 {
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -68,17 +70,20 @@ img {vertical-align: middle;}
   transition: background-color 0.6s ease;
 }
 
+
 .active, .dot:hover {
   background-color: #717171;
 }
 
 /* Fading animation */
-.fade {
+.fade , .fade2, .fade3 {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
 }
+
+
 
 @-webkit-keyframes fade {
   from {opacity: .4} 
