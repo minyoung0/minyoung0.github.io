@@ -254,9 +254,12 @@ body::after{
 .about .about_right h2{opacity: 0; transform: translateY(40px); transition: all 0.3s 0.6s ease-in-out;}
 .about .about_right em{}
 .about .about_right .right_col1{}
+.about .about_right .right_col1 .right_col1_top{color:#fff; font-size:17px; }
+.about .about_right .right_col1 .right_col1_bottom{color:#fff; font-size:17px; }
+.about .about_right .right_col1 strong{font-size:17px;}
 .about .about_right .right_col1 p{opacity: 0; transform: translateY(40px); transition: all 0.3s 0.8s ease-in-out;}
 .about .about_right .right_col1 span{opacity: 0; transform: translateY(40px); transition: all 0.3s 1.0s ease-in-out;}
-.about .about_right .right_col1 a{}
+.about .about_right a{color:#F7CA18}
 #about.show .about{}
 #about.show .about .about_left{}
 #about.show .about .about_left .left_col1{}
@@ -265,8 +268,8 @@ body::after{
 #about.show .about .about_left .left_col1 .p1{opacity: 1; transform: translateY(0);}
 #about.show .about .about_left .left_col1 .p2{opacity: 1; transform: translateY(0);}
 #about.show .about .about_right{}
-#about.show .about .about_right h2{opacity: 1; transform: translateY(0);}
-#about.show .about .about_right em{}
+#about.show .about .about_right h2{opacity: 1; transform: translateY(0); font-size:50px;}
+#about.show .about .about_right em{font-size:50px; align}
 #about.show .about .about_right .right_col1{}
 #about.show .about .about_right .right_col1 p{opacity: 1; transform: translateY(0);}
 #about.show .about .about_right .right_col1 span{opacity: 1; transform: translateY(0);}
