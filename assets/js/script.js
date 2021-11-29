@@ -83,13 +83,13 @@ $(window).scroll(function(){
         $("#work3").addClass("show");
     }
     
-    if(wScroll >= $("#work4").offset().top - $(window).height()/2){
-        $("#work4").addClass("show");
-    }
+    // if(wScroll >= $("#work4").offset().top - $(window).height()/2){
+    //     $("#work4").addClass("show");
+    // }
     
-    if(wScroll >= $("#work5").offset().top - $(window).height()/2){
-        $("#work5").addClass("show");
-    }
+    // if(wScroll >= $("#work5").offset().top - $(window).height()/2){
+    //     $("#work5").addClass("show");
+    // }
 
     // if(wScroll >= $("#work6").offset().top - $(window).height()/2){
     //     $("#work6").addClass("show");
