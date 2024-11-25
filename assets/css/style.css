@@ -524,7 +524,8 @@ a.thar-one:before {
 .work3 .work3_left li{opacity: 0; transform: translateY(40px); transition: all 0.3s 0.4s ease-in-out;}
 .work3 .work3_left p{opacity: 0; transform: translateY(40px); transition: all 0.3s 0.8s ease-in-out;}
 .work3 .work3_left a{opacity: 0; transform: translateY(40px); transition: all 0.3s 1.0s ease-in-out;}
-.work3 .work3_right{opacity: 0; transform: translateY(40px); transition: all 0.3s 1.1s ease-in-out;}
+.work3 .work3_right{opacity: 0; transform: translateY(40px); transition: all 0.3s 1.1s ease-in-out; margin-bottom:10px; display:flex ; flex-direction: column; align-items: center;}
+.work3_right{}
 .work3 .work3_right img{}
 #work3.show .work3{}
 #work3.show .work3 .work3_top{opacity: 1; transform: translateY(0);}
@@ -551,7 +552,7 @@ a.thar-one:before {
 .work4 .work4_top p{ color: #fff; text-align: left; margin-top: -35px; display: inline; font-size: 80px;}
 .work4 .work4_top p em{color: #fff; display: inline;  font-size: 80px; font-style: normal; -webkit-text-fill-color: transparent; -webkit-text-stroke: 1px #fff; line-height: 0.5;}
 .work4 .work4_left{float: right; width: 25%; margin-left: 5%;}
-.work4 .work4_left .site_tit1{font-family: 'Roboto', sans-serif; font-size: 15px; font-weight: bold; letter-spacing: 1.5px; margin: 40px 0 20px 0; position: relative;}
+.work4 .work4_left .site_tit1{font-family: 'Roboto', sans-serif; font-size: 15px; font-weight: bold; letter-spacing: 1.5px; margin: 40px 0 20px 0; position: relative;}/bookmanagement.pdf
 .work4 .work4_left .site_tit1::before{content: ''; width: 20px; height: 2px; position: absolute; top: -20px; left: 0; background: #fff;}
 .work4 .work4_left h3{font-family: 'Roboto', sans-serif; font-size: 18px; font-weight: bold; letter-spacing: 1.5px; color: #fff; position: relative;}
 .work4 .work4_left h3::after{content: ""; width: 100px; height: 3px; background: #fff; position: absolute; left: 0; bottom: -30px;}

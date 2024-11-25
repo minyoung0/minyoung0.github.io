@@ -306,6 +306,8 @@ body{font-family: 'Noto Sans KR', 'Roboto', 'Montserrat', sans-serif;}
 #work2.show .work2 .carousel_slide{opacity: 1; transform: translateY(0);}
 #work2.show .work2 .carousel_slide img{}
 
+
+
 /* work5 */
 .work5{padding:10% 0;}
 .work5 .work5_tit{display: flex; align-items: center; justify-content: center;}
